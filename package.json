@@ -1,0 +1,17 @@
+{
+  "name": "blur-benchmark",
+  "version": "1.0.0",
+  "description": "benchmark for d3-array/blur",
+  "main": "index.js",
+  "author": "Philippe Rivière <fil@rezo.net>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "canvas": "2",
+    "a-173202": "d3/d3-array#1732028d651d3578c8212ce78d24fae0a4c5e06e",
+    "a-65942a": "d3/d3-array#65942a96c7c37a1a2f75a4ff18c15521768fda42"
+  }
+}
